@@ -6,3 +6,7 @@ body {
   grid-template-rows: auto 1fr auto;
   grid-template-columns: minmax(0, 1fr);
 }
+.dialog{
+  border: none;
+outline: none;
+}
