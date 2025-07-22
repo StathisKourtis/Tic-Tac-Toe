@@ -1,16 +1,14 @@
-const Player = (mark) => {};
+const gameboard = {
+  A: ["-", "-", "-"],
+  B: ["-", "-", "-"],
+  C: ["-", "-", "-"],
+};
+let currentPlayer = "player1";
+let mark = "X";
+let winningPlayer = "";
+let gameFinished = false;
 
 (function playGame() {
-  const gameboard = {
-    A: ["-", "-", "-"],
-    B: ["-", "-", "-"],
-    C: ["-", "-", "-"],
-  };
-  let currentPlayer = "player1";
-  let mark = "X";
-  let winningPlayer = "";
-  let gameFinished = false;
-
   console.log("Game Started");
   console.table(gameboard);
 
